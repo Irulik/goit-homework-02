@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    
 </head>
 
 <body>
@@ -21,35 +22,35 @@
         <nav class="header_nav">
             <a class="header_nav_logo" href="">WEB<span>STUDIO</span></a>
             <ul class="header_nav_list">
-                <li>
+                <li class="head_nav_item">
                     <a class="link" href="index.html">Studio</a>
                 </li>
-                <li>
+                <li class="head_nav_item">
                     <a class="link" href="portfolio.html">Portfolio</a>
                 </li>
-                <li>
+                <li class="head_nav_item">
                     <a class="link" href="">Contacts</a>
                 </li>
             </ul>
         </nav>
         <address>
-            <ul>
-                <li>
-                    <a class="address_link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <ul class="address">
+                <li class="address_list">
+                    <a class="address_mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li>
-                    <a class="address_link" href="tel:+11(000)1111111">+11 (000) 111-11-11</a>
+                <li class="address_tel">
+                    <a class="address_item" href="tel:+11(000)1111111">+11 (000) 111-11-11</a>
                 </li>
             </ul>
         </address>
     </header>
+ <!-- /HEADER-->
 
-    <main class="container">
-        <!-- NAVIGATOR-->
+    <main class="container">     
 
         <!-- Секція -->
-        <section></section>
-        <h1>Portfolio</h1>
+        <section>
+        <h1 class="visually_hidden">Portfolio</h1>
         <ul class="main_buttons">
             <button class="main_buttons_btn" type="button">All</button>
             <button class="main_buttons_btn" type="button">Web site</button>
@@ -57,61 +58,60 @@
             <button class="main_buttons_btn" type="button">Design</button>
             <button class="main_buttons_btn" type="button">Marketing</button>
         </ul>
-
+</section>
         <ul class="section_row-works">
             <li>
                 <img src="./static-portfolio/img/BankApp.jpg" alt="Картинка Bank App" width="360" height="300">
             </li>
-            <h2>Banking App Interface Concept</h2>
-            <p>App</p>
+            <h2 class="section_row_header">Banking App Interface Concept</h2>
+            <p class="section_row_text">App</p>
             <li>
                 <img src="./static-portfolio/img/QR.jpg" alt="Картинка Bank App" width="360" height="300">
             </li>
-            <h2>Cashless Payment</h2>
-            <p>Marketing</p>
+            <h2 class="section_row_header">Cashless Payment</h2>
+            <p class="section_row_text">Marketing</p>
             <li>
                 <img src="./static-portfolio/img/Monitor.jpg" alt="Картинка Bank App" width="360" height="300">
             </li>
-            <h2>Meditaion App</h2>
-            <p>App</p>
+            <h2 class="section_row_header">Meditaion App</h2>
+            <p class="section_row_text">App</p>
             <li>
                 <img src="./static-portfolio/img/taxiservice.jpg" alt="Картинка Bank App" width="360" height="300">
             </li>
-            <h2>Taxi Service</h2>
-            <p>Marketing</p>
+            <h2 class="section_row_header">Taxi Service</h2>
+            <p class="section_row_text">Marketing</p>
             <li>
                 <img src="./static-portfolio/img/screen.jpg" alt="Картинка Bank App" width="360" height="300">
             </li>
-            <h2>Screen Illustrations</h2>
-            <p>Design</p>
+            <h2 class="section_row_header">Screen Illustrations</h2>
+            <p class="section_row_text">Design</p>
             <li>
                 <img src="./static-portfolio/img/online.jpg" alt="Картинка Bank App" width="360" height="300">
             </li>
-            <h2>Online Courses</h2>
-            <p>Marketing</p>
+            <h2 class="section_row_header">Online Courses</h2>
+            <p class="section_row_text">Marketing</p>
             <li>
                 <img src="./static-portfolio/img/InstaStories.jpg" alt="Картинка Bank App" width="360" height="300">
             </li>
-            <h2>Instagram Stories Concept</h2>
-            <p>Design</p>
+            <h2 class="section_row_header">Instagram Stories Concept</h2>
+            <p class="section_row_text">Design</p>
             <li>
                 <img src="./static-portfolio/img/OraganicFood.jpg" alt="Картинка Bank App" width="360" height="300">
             </li>
-            <h2>Organic Food</h2>
-            <p>Web Site</p>
+            <h2 class="section_row_header">Organic Food</h2>
+            <p class="section_row_text">Web Site</p>
             <li>
                 <img src="./static-portfolio/img/Coffee.jpg" alt="Картинка Bank App" width="360" height="300">
             </li>
-            <h2>Fresh Coffee</h2>
-            <p>Web Site</p>
+            <h2 class="section_row_header">Fresh Coffee</h2>
+            <p class="section_row_text">Web Site</p>
         </ul>
-
-
         </section>
+        <!-- /Секція -->
 
     </main>
 
-    <!-- Футер -->
+    <!-- Footer -->
     <footer>
         <div class="container">
             <div class="logo_text">
@@ -123,9 +123,6 @@
                 </div>
             </div>
         </div>
-
-
-
     </footer>
 
 
