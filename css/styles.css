@@ -57,12 +57,13 @@ ul {
 
 .header_nav_logo {
 	color: #4D5AE5;
-	font-family: "Raleway" sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-size: 18px;
 	font-weight: 800;
 	line-height: 1.14;
 	letter-spacing: 0.03em;
 }
+
 .header_nav_logo>span {
 	color: #2E2F42;
 }
@@ -74,6 +75,7 @@ ul {
 	letter-spacing: 0.02em;
 	color: #2E2F42;
 }
+
 .header_item:hover {
 	color: #404BBF;
 }
@@ -86,6 +88,7 @@ ul {
 	letter-spacing: 0.02em;
 	color: #434455;
 }
+
 .address_mail:hover {
 	color: #404BBF;
 }
@@ -98,6 +101,7 @@ ul {
 	letter-spacing: 0.02em;
 	color: #434455;
 }
+
 .address_tel:hover {
 	color: #404BBF;
 }
@@ -173,29 +177,26 @@ ul {
 /*Team*/
 .team {
 	background: #F4F4FD;
-
 }
 
 .team_header {
+
 	font-size: 36px;
 	line-height: 1.11;
 	text-align: center;
 	letter-spacing: 0.02em;
-	text-transform: capitalize;
 	color: #2E2F42;
 }
 
-.team_list {}
-
-.team_person {
-	background: #FFFFFF;
+.team_list {
+	background-color: #FFFFFF;
+	;
 }
 
 .team_header_person {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
-	text-align: center;
 	letter-spacing: 0.02em;
 	color: #2E2F42;
 }
@@ -203,7 +204,6 @@ ul {
 .team_text {
 	font-size: 16px;
 	line-height: 1.5;
-	text-align: center;
 	letter-spacing: 0.02em;
 	color: #434455;
 }
@@ -267,12 +267,13 @@ ul {
 
 .header_nav_logo {
 	color: #4D5AE5;
-	font-family: "Raleway" sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-size: 18px;
 	font-weight: 800;
 	line-height: 1.14;
 	letter-spacing: 0.03em;
 }
+
 .header_nav_logo>span {
 	color: #2E2F42;
 }
@@ -284,6 +285,7 @@ ul {
 	letter-spacing: 0.02em;
 	color: #2E2F42;
 }
+
 .header_item:hover {
 	color: #404BBF;
 }
@@ -311,6 +313,7 @@ ul {
 	letter-spacing: 0.02em;
 	color: #434455;
 }
+
 .address_tel:hover,
 .address_mail:focus {
 	color: #404BBF;
@@ -356,7 +359,7 @@ ul {
 	margin: 0 auto;
 	margin-bottom: 72px;
 	margin-top: 96px;
-	color: #4D5AE5;
+	
 }
 
 .main_buttons_btn {
@@ -373,6 +376,7 @@ ul {
 	padding: 12px 24px 12px 24px;
 	color: #4D5AE5;
 }
+
 .main_buttons_btn:hover,
 .main_buttons_btn:focus {
 	background: #404BBF;
